@@ -214,17 +214,32 @@ nav ul li a:hover
 }
 .discographyIcon img
 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 .discographyIcon
 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    height: 350px;
+    
 }
+
 .discographyImg:hover
 {
-    
     border:5px solid #000;
 }
+h3
+{
+    font-size:18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 5px;
+}
+.txtDescription
+{
+    text-align: center;
+}
+
 
 
