@@ -52,12 +52,11 @@ p
     position: absolute;
     top: 200px;
     left: 30%;
-    
-    
     border: 3px solid #FFF;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 400px;
-    height: 120px;
+    height: 150px;
     
 }
 .titleHeader h1
@@ -113,7 +112,7 @@ nav ul li a:hover
     max-width: 800px;
     margin: 0 auto;
     color: #000;
-    padding: 10px;
+    padding: 20px;
 
 }
 .externalQuote p
@@ -126,10 +125,106 @@ nav ul li a:hover
 .timelineImg
 {
     width: 300px;
-    height: 180px;
+    height: 185px;
+    
 }
 
 .timelineList
 {
+    text-align: center;
     margin-top:20px;
 }
+
+.timelineList li
+{
+    
+    margin-bottom: 20px;
+}
+
+.timelineDescription
+{
+    
+    padding-top: 10px;
+    
+    
+    
+    
+    width: 300px;
+    height: 120px;
+}
+.timelineDescription h3
+{
+    text-align: center;
+}
+.timelineDescription h3:after
+{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 40px;
+    background: #000;
+    margin: 8px auto;
+
+}
+
+.copy p
+{
+    color: #fff;
+}
+.copy
+{
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.copy p a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Discography*/
+.discography
+{
+    width: 100%;
+    background: #DDDFDC;
+    
+    
+}
+.discography .h2Title
+{
+    color: #000;
+    padding-top: 40px;
+}
+.discography .h2Title:after
+{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 40px;
+    background: #000;
+    margin: 8px auto;
+
+}
+
+.discographyList
+{
+    text-align: center;
+}
+.discographyIcon img
+{
+    width: 200px;
+    height: 200px;
+}
+.discographyIcon
+{
+    margin-bottom: 20px;
+}
+.discographyImg:hover
+{
+    
+    border:5px solid #000;
+}
+
+
